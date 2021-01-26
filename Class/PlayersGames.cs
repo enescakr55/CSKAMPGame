@@ -4,10 +4,10 @@ using System.Text;
 
 namespace CSharp_Oyun.Class
 {
-    public class Game:Entity
+    public class PlayersGames
     {
         public int Id { get; set; }
-        public string GameName { get; set; }
-        public int GamePrice { get; set; }
+        public Game Oyun { get; set; }
+        public Player Oyuncu { get; set; }
     }
 }
